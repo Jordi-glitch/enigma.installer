@@ -141,20 +141,19 @@ pkg install neofetch
 pkg install nano
 pkg install vim
 gem install lolcat
+pip install mechanize
+pip install request
+pip install colorama
+pip install scapy
+pip install --upgrade pip
 pip2 install request
 pip2 install urllib3
 pip2 install chardet
 pip2 install certifi 
 pip2 install idna
-pip install scapy
-pip install request
-pip install mechanize
 pip2 install requests
 pip2 install mechanize
-pip install --upgrade pip
-pip install colorama
 pip2 install colorama
-
 figlet -f slant " D O N E "|lolcat
 fi
 
