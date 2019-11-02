@@ -125,10 +125,27 @@ then
 clear
 figlet -f slant "S E C . . ."|lolcat
 sleep 2
-sudo apt update && sudo apt upgrade
-sudo apt install python3
-pip2 install urllib3 chardet certifi idna requests
-sudo apt install git
+pkg update && pkg upgrade -Y
+pkg install git
+pkg install python
+pkg install python3
+pkg install curl
+pkg install wget
+pkg install ruby
+pkg install gem
+pkg install php
+pkg install cowsay 
+pkg install toilet 
+pkg install figlet
+pkg install neofetch
+pkg install nano
+pkg install vim
+gem install lolcat
+pip2 install request
+pip2 install urllib3
+pip2 install chardet
+pip2 install certifi 
+pip2 install idna
 pip install scapy
 pip install request
 pip install mechanize
@@ -137,17 +154,7 @@ pip2 install mechanize
 pip install --upgrade pip
 pip install colorama
 pip2 install colorama
-sudo apt install curl
-sudo apt install wget
-sudo apt install ruby
-sudo apt install gem
-gem install lolcat
-sudo apt install git
-sudo apt install php
-sudo apt install cowsay toilet figlet
-sudo apt install neofetch
-sudo apt install nano
-sudo apt install vim
+
 figlet -f slant " D O N E "|lolcat
 fi
 
