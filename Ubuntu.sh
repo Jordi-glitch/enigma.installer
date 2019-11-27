@@ -140,18 +140,7 @@ sudo apt install figlet
 sudo apt install neofetch
 sudo apt install nano
 sudo apt install vim
-pip install request
-pip install mechanize
-pip install scapy
-pip install colorama
-pip install --upgrade pip
-pip2 install requests
-pip2 install mechanize
-pip2 install colorama
-pip2 install urllib3
-pip2 install chardet
-pip2 install certifi
-pip2 install idna
+sudo apt install python-pip
 figlet -f slant " D O N E "|lolcat
 fi
 
