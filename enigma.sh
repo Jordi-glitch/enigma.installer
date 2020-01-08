@@ -129,21 +129,24 @@ then
 clear
 figlet -f slant "S E C . . ."|lolcat
 sleep 2
+echo '''\a
 pkg update && pkg upgrade -Y
-pkg install git
-pkg install python
-pkg install python3
-pkg install curl
-pkg install wget
-pkg install ruby
-pkg install gem
-pkg install php
-pkg install cowsay 
-pkg install toilet 
-pkg install figlet
-pkg install neofetch
-pkg install nano
-pkg install vim
+pkg install git -Y
+pkg install python -Y
+pkg install python3 -Y
+pkg install curl -Y
+pkg install wget -Y
+pkg install ruby -Y
+pkg install gem -Y
+pkg install php -Y
+pkg install cowsay -Y 
+pkg install toilet -Y
+pkg install figlet -Y
+pkg install neofetch -Y
+pkg install nano -Y
+pkg install vim -Y
+sleep 1
+echo '''\a
 gem install lolcat
 pip install mechanize
 pip install request
@@ -158,6 +161,7 @@ pip2 install idna
 pip2 install requests
 pip2 install mechanize
 pip2 install colorama
+echo '''\a
 figlet -f slant " D O N E "|lolcat
 fi
 
