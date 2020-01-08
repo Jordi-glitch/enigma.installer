@@ -114,7 +114,7 @@ unzip node_modules.zip
 node index.js
 fi
 
-if [ $pilih = 8 ]
+if [ $pilih = 8]
 then
 clear
 figlet -f slant "S E C . . ."|lolcat
@@ -129,7 +129,6 @@ then
 clear
 figlet -f slant "S E C . . ."|lolcat
 sleep 2
-echo '''\a
 pkg update && pkg upgrade -Y
 pkg install git -Y
 pkg install python -Y
