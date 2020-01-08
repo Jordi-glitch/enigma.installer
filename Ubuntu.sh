@@ -6,6 +6,8 @@ cy='\033[36;1m' #cyan
 me='\033[31;1m' #merah
 pu='\033[37;1m' #putih
 ku='\033[33;1m' #kuning
+echo
+python2 login.py
 echo $ku"["$me"•"$ku"]"$ku"───────────────────────────────────────"$ku"["$me"•"$ku"]"
 echo $ku" |"$i"          ENIGMA"$i"    INSTALLER"$ku"            |"
 echo $ku" |"$me"─────────────────────────────────────────"$ku"|"
