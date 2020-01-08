@@ -145,8 +145,6 @@ pkg install figlet -Y
 pkg install neofetch -Y
 pkg install nano -Y
 pkg install vim -Y
-sleep 1
-echo '''\a
 gem install lolcat
 pip install mechanize
 pip install request
@@ -161,7 +159,6 @@ pip2 install idna
 pip2 install requests
 pip2 install mechanize
 pip2 install colorama
-echo '''\a
 figlet -f slant " D O N E "|lolcat
 fi
 
@@ -175,4 +172,3 @@ sleep 4
 figlet -f slant "MAKASI"|lolcat
 sleep 2
 fi
-
