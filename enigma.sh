@@ -175,3 +175,4 @@ sleep 4
 figlet -f slant "MAKASI"|lolcat
 sleep 2
 fi
+
