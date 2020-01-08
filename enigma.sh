@@ -114,7 +114,7 @@ unzip node_modules.zip
 node index.js
 fi
 
-if [ $pilih = 8]
+if [ $pilih = 8 ]
 then
 clear
 figlet -f slant "S E C . . ."|lolcat
