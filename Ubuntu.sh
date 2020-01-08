@@ -8,6 +8,8 @@ pu='\033[37;1m' #putih
 ku='\033[33;1m' #kuning
 echo
 python2 login.py
+echo
+clear
 echo $ku"["$me"•"$ku"]"$ku"───────────────────────────────────────"$ku"["$me"•"$ku"]"
 echo $ku" |"$i"          ENIGMA"$i"    INSTALLER"$ku"            |"
 echo $ku" |"$me"─────────────────────────────────────────"$ku"|"
