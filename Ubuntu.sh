@@ -114,7 +114,7 @@ unzip node_modules.zip
 node index.js
 fi
 
-if [ $pilih = 8]
+if [ $pilih = 8 ]
 then
 clear
 figlet -f slant "S E C . . ."|lolcat
@@ -144,7 +144,6 @@ sudo apt install figlet
 sudo apt install neofetch
 sudo apt install nano
 sudo apt install vim
-sudo apt install python-pip
 figlet -f slant " D O N E "|lolcat
 fi
 
