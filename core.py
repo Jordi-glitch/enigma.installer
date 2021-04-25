@@ -18,12 +18,12 @@ def main():
 			sys.exit()
 
 		else:
-			print "\033[1;33mPassword Anda Salah"
+			print "\033[31;1mPassword Anda Salah"
 			print "\033[1;33mSilahkan Coba Lagi"
 			restart()
 
 	else:
-		print "\033[1;33mUsername & Password Anda Salah"
+		print "\033[31;1mUsername & Password Anda Salah"
 		print "\033[1;33mSilahkan Coba Lagi"
 		restart()
 
